@@ -1,0 +1,38 @@
+/**
+ * @author 王宇卓
+ * 
+ * @Date 2019/7/15 15:35
+ * 
+ * @Description indexLeft组件样式文件
+ *
+ */
+
+.indexLeft {
+    background-color: #F2F9FD;
+    width: 145px;
+}
+
+.secondNav ul {
+    padding-top:40px;
+}
+
+.secondNav ul>li{
+    line-height: 25px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei UI";
+    width: 145px;
+    /*text-align: center;*/
+    list-style-type: circle;
+}
+
+.secondNav ul>li:hover{
+    background-color: #E9F4FC;
+}
+
+.secondNav ul>li>a {
+    color: #666;
+}
+
+.tree-node-selected{
+    background-color: #cde6ff;
+}

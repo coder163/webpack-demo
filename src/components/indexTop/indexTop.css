@@ -1,0 +1,66 @@
+/**
+ * @author 王宇卓
+ * 
+ * @Date 2019/7/15 19:03
+ * 
+ * @Description 
+ *
+ */
+#indexTop {
+    background-color: #F2F9FD;
+}
+
+.logo {
+    width: 145px;
+    height: 87px;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.firstNav {
+    height: 87px;
+    padding-left: 20px;
+}
+
+.firstNav ul {
+    display: inline-block;
+    margin-top: 29.5px;
+    width: 1200px;
+    border-bottom: 5px solid #1483BD;
+}
+
+.firstNav li {
+    list-style: none;
+    margin-right: 2px;
+}
+
+.firstNav li > a {
+    display: inline-block;
+    border: 1px solid #B8E1FA;
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    line-height: 28px;
+    width: 50px;
+}
+
+.l-btn-plain {
+    padding: 0;
+}
+
+.action {
+    background-color: #1483BD;
+    font-weight: 800;
+    font-size: 18px;
+    border: 1px solid #1483BD;
+}
+
+.firstNav li > a:visited {
+    color: black;
+}

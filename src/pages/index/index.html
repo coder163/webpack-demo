@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>慧海后台管理系统</title>
+</head>
+
+<body class="easyui-layout">
+
+
+    @require('../../components/indexTop/indexTop.html')
+    <!-- <div data-options="region:'west',split:true,title:'West'" style="width:150px;padding:10px;">
+        <ul id="tt"></ul>
+    </div> -->
+    @require('../../components/indexLeft/indexLeft.html')
+
+    <div data-options="region:'east',split:true,collapsed:true,title:'East'" style="width:100px;padding:10px;">east
+        region</div>
+    <div data-options="region:'south',border:false" style="height:50px;background:#A9FACD;padding:10px;">south
+        region</div>
+    <div data-options="region:'center',title:'Center'">
+        <div id="center"></div>
+    </div>
+
+</body>
+
+</html>

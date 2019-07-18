@@ -1,0 +1,21 @@
+{
+  "ignore": [
+    "./src/common/easyui/jquery.easyui.min.js",
+    "./src/common/easyui/jquery.min.js",
+    "./node_modules/"
+  ],
+  "presets": [
+
+    ["@babel/preset-env", {
+      "corejs": "2",
+      "modules": false,
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      },
+      "useBuiltIns": "usage"
+    }]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ]
+}

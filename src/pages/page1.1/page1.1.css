@@ -1,0 +1,16 @@
+/**
+ * @author 王宇卓
+ * 
+ * @Date 2019/7/17 9:47
+ * 
+ * @Description 
+ *
+ */
+
+#page1-content {
+    width: 100%;
+    height: 100%;
+    color: yellow;
+    background: url("index.png") no-repeat;
+    background-size: 100% 100%;
+}

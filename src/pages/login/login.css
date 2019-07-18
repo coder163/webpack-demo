@@ -1,0 +1,72 @@
+/**
+ * @author 王宇卓
+ * 
+ * @Date 2019/7/11 19:39
+ * 
+ * @Description 慧海官网后台登录页面
+ *
+ */
+div{
+    width: 533px;
+}
+
+.login {
+    height: 248px;
+    background: url("background.gif") no-repeat;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 12%;
+    font-family: "Microsoft YaHei UI";
+    font-size:16px;
+    line-height: 2;
+}
+.login div {
+    position: absolute;
+    top: 50%;
+    margin-top: -64px;
+}
+.content>img {
+    margin-left: 15%;
+    margin-right: 8%;
+    margin-top: 10px;
+}
+
+input {
+    border: 1px solid grey;
+    /*background-color: rgba(230, 230, 230, 0.72);*/
+    line-height: 20px;
+}
+
+/*input:focus{
+    outline-color: rgba(3, 145, 224, 0.89);
+}*/
+
+#code {
+    width: 60px;
+}
+
+ul{
+    padding-top: -10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 2px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: #4c4c4c;
+}
+
+.tips{
+    color: red;
+    display: none;
+}
+.changeImg{
+    display: inline-block;
+    margin-top: -5px;
+}
+#codeImg {
+    width: 70px;
+    height: 20px;
+    border: 1px solid grey;
+}
